@@ -18,7 +18,7 @@ export default createGlobalStyle`
     display: grid;
     place-items: center;
     text-align: center;
-    background: #171d2d;
+    background: #22272e;
     color: #e1e2e4;
     transition: all ease .3s;
     &.light {

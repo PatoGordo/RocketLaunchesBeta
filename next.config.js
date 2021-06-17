@@ -15,3 +15,9 @@ webpack: (config) => {
 	return config;
 },
 });
+
+module.exports = {
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
+}

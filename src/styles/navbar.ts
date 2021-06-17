@@ -1,17 +1,42 @@
 import styled from "styled-components";
 
-export const Navbar = styled.nav`
+export const BottomBar = styled.nav`
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 80px;
-  background: #1D2333;
+  background: #2d333b;
   color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+`
+
+export const TopBar = styled.nav`
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background: #2d333b;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  div {
+    display: flex;
+    align-items: center;
+    margin: 0 16px;
+    h2 {
+      font-weight: 500;
+    }
+    h2, .config {
+      margin-left: 16px;
+    }
+  }
 `
 
 export const IconContainer = styled.div`
