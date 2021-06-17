@@ -1,0 +1,30 @@
+{
+  "name": "rocketlaunches-next-and-react",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next",
+    "post-update": "yarn upgrade --latest",
+    "push": "git add . && git commit -m 1.0 && git push"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "firebase": "^8.6.7",
+    "next": "latest",
+    "next-pwa": "^5.2.21",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-ionicons": "^4.2.0",
+    "styled-components": "5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "15.3.0",
+    "@types/react": "latest",
+    "@types/styled-components": "5.1.9",
+    "typescript": "4.2.4"
+  },
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}
