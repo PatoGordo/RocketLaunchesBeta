@@ -66,7 +66,6 @@ export default function TopBar_() {
       </TopBar>
 
       <TopMenu className={isOpen?'topbar-menu on':'topbar-menu'}>
-        <p style={{color: '#FF7043'}}>This is the beta version of the <a href="https://rocketlaunches.ga" target="_blank">Rocket Launches</a></p>
         <h2>Settings</h2>
 
         <h3 style={{fontWeight: 400}}>Theme</h3>

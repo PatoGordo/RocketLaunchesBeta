@@ -27,7 +27,7 @@
 ## ToDo
 - [x] T- timer
 - [x] Top bar & Top menu
-- [x] Renew launch cards ad news cards designs
+- [x] Renew launch cards and news cards designs
 - [x] Renew dark theme
 - [x] Polyfill project
 - [ ] Add rockets page
