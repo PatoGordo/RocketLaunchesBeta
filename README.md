@@ -1,5 +1,5 @@
 # Welcome to Rocket Launches Next Version 👋
-![Version](https://img.shields.io/badge/Version-1.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/Version-Beta_1.1-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](#)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
@@ -24,17 +24,20 @@
 ```
 ***
 
-## What's new? 
-- [x] Styles
-- [x] Api cache control
-- [x] Loading Modal Animations
-- [x] App settings v1
-- [x] Progresive web app
-- [x] Google analytics integration (Firebase)
+## ToDo
+- [x] T- timer
+- [x] Top bar & Top menu
+- [x] Renew launch cards ad news cards designs
+- [x] Renew dark theme
+- [x] Polyfill project
+- [ ] Add rockets page
+- [ ] Search rocket infos
+- [ ] Top bar text with route pathname
+- [...]
 
-## Plans
-- [ ] Mobile app
+## Beta 2.0 plans
 - [ ] Push notifications
+- [ ] Firebase cloud messaging
 
 ## Show your support :handshake:
 

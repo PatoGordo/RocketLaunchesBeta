@@ -11,7 +11,6 @@ export const TopMenu = styled.div`
   z-index: 9;
   overflow-y: auto;
   transform: translateX(-100%);
-  animation: slide-left .4s linear both;
   footer {
     margin: 10px 0;
   }
