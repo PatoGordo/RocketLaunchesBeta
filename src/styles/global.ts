@@ -29,8 +29,27 @@ export default createGlobalStyle`
         background: #f3fbff !important;
         transition: all ease .3s;
       }
-      #navbar {
+      #bottom-nav, #top-nav {
         background: #24292E !important;
+        transition: all ease .3s;
+      }
+      .topbar-menu {
+        background: #dae1ea !important;
+        transition: all ease .3s;
+      }
+      .card {
+        background: #ffffff;
+        border: 1px solid #aaa;
+        transition: all ease .3s;
+      }
+      .top {
+        background: #f6f8fa;
+        border-bottom: 1px solid #aaa;
+        transition: all ease .3s;
+      }
+      .icon {
+        color: #22272e;
+        fill: #22272e;
         transition: all ease .3s;
       }
     }

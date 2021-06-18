@@ -11,16 +11,15 @@ export const LaunchCard = styled.div`
   margin: 15px;
   .top {
     width: 100%;
-    padding: 5px;
+    padding: 5px 0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     background: #48515c;
     border-radius: 8px 8px 0 0;
     .icon {
       display: flex;
       align-items: center;
-      margin: 0 10px;
+      margin: 0 20px;
     }
     div {
       display: flex;
@@ -61,16 +60,15 @@ export const NewsCard = styled.div`
   margin: 15px;
   .top {
     width: 100%;
-    padding: 5px;
+    padding: 5px 0;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     background: #48515c;
     border-radius: 8px 8px 0 0;
     .icon {
       display: flex;
       align-items: center;
-      margin: 0 10px;
+      margin: 0 20px;
     }
     div {
       display: flex;
@@ -88,6 +86,9 @@ export const NewsCard = styled.div`
       p {
         font-weight: 300;
         font-size: 14px;
+      }
+      a {
+        color: #00E676;
       }
     }
   }

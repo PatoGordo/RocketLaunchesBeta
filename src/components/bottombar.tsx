@@ -19,18 +19,14 @@ export default function BottomBar_() {
 
         <IconContainer className={router.pathname === '/launches' ? 'active' : ''} onClick={() => router.push('/launches')}>
           <TimeOutline width="24px" height="24px" color="#ffffff" />
-          <a>Upcoming</a>
+          <a>Launches</a>
         </IconContainer>
 
         <IconContainer className={router.pathname === '/vehicles' ? 'active' : ''} onClick={() => /*router.push('/vehicles')*/ alert('Not working yet!')}>
           <RocketOutline width="24px" height="24px" color="#ffffff" />
-          <a>Vehicles</a>
+          <a>Rockets</a>
         </IconContainer>
 
-        <IconContainer className={router.pathname === '/companys' ? 'active' : ''} onClick={() => /*router.push('/companys')*/ alert('Not working yet!')}>
-          <StorefrontOutline width="24px" height="24px" color="#ffffff" />
-          <a>Companys</a>
-        </IconContainer>
       </BottomBar>
   )
 }

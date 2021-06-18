@@ -15,7 +15,7 @@ interface PropsTypes {
 }
 
 export default function LaunchCard_(props: PropsTypes) {
-  const launchDate: any = new Date(props.LaunchDate * 1000)
+  const launchDate: number = Number(new Date(props.LaunchDate * 1000))
   const [remainTime, setRemainTime] = useState(`00:00:00:00`)
   // const [isMetric, setIsMetric] = useState(false)
 
@@ -62,7 +62,7 @@ export default function LaunchCard_(props: PropsTypes) {
   // }
 
   return (
-    <LaunchCard>
+    <LaunchCard className="card">
       <div className="top">
         <RocketSharp cssClasses="icon" height="30px" width="30px" color="#ffffff" />
         <div>

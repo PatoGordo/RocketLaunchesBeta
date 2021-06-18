@@ -45,6 +45,8 @@ export default class MyDocument extends Document {
           <link href="/images/favicon.svg" rel="icon" type="image/png" sizes="32x32" />
           <link rel="apple-touch-icon" href="/apple-icon.png"></link>
           <meta name="theme-color" content="#22272e" />
+
+          <script src="https://polyfill.io/v3/polyfill.min.js"></script>
         </Head>
 
         <body>

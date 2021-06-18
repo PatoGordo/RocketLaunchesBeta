@@ -22,7 +22,7 @@ function home() {
   }, []);
 
   return (
-    <div>
+    <div style={{marginTop: '50px'}}>
       <div>
         <Cards>
           {
@@ -51,6 +51,7 @@ function home() {
                   articleName={article.title}
                   articleDescription={article.summary}
                   publishedAt={article.publishedAt}
+                  website_url={article.url}
                 />
               </div>
             ))

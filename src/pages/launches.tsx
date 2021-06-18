@@ -18,7 +18,7 @@ function launches() {
 
 
   return (
-    <div>
+    <div style={{marginTop: '50px'}}>
       <h1>Next four launches</h1>
       <Cards>
         {launches.map((launch, key) => {

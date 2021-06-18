@@ -17,7 +17,7 @@ function news() {
   }, []);
 
   return (
-    <div>
+    <div style={{marginTop: '50px'}}>
       <h1>Astronomy news</h1>
       <Cards>
         {
@@ -28,6 +28,7 @@ function news() {
               articleName={article.title}
               articleDescription={article.summary}
               publishedAt={article.publishedAt}
+              website_url={article.url}
             />
           ))
         }
