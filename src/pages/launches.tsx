@@ -23,18 +23,17 @@ function launches() {
       <Cards>
         {launches.map((launch, key) => {
           return (
-            <Card key={key}>
-              <LaunchCard 
-                LaunchDate={launch.sort_date} 
-                MissionDescription={launch.launch_description}
-                MissionName={launch.name}
-                PadLocationCountry={launch.pad.location.country}
-                PadLocationState={launch.pad.location.state}
-                PadName={launch.pad.name}
-                company={launch.provider.name}
-                vehicleName={launch.vehicle.name}
-              />
-            </Card>
+            <LaunchCard 
+              key={key}
+              LaunchDate={launch.sort_date} 
+              MissionDescription={launch.launch_description}
+              MissionName={launch.name}
+              PadLocationCountry={launch.pad.location.country}
+              PadLocationState={launch.pad.location.state}
+              PadName={launch.pad.name}
+              company={launch.provider.name}
+              vehicleName={launch.vehicle.name}
+            />
           );
         })}
       </Cards>

@@ -22,7 +22,7 @@ export default function BottomBar_() {
           <a>Launches</a>
         </IconContainer>
 
-        <IconContainer className={router.pathname === '/vehicles' ? 'active' : ''} onClick={() => /*router.push('/vehicles')*/ alert('Not working yet!')}>
+        <IconContainer className={router.pathname === '/vehicles' ? 'active' : ''} onClick={() => router.push('/rockets')}>
           <RocketOutline width="24px" height="24px" color="#ffffff" />
           <a>Rockets</a>
         </IconContainer>

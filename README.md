@@ -1,5 +1,5 @@
 # Welcome to Rocket Launches Next Version 👋
-![Version](https://img.shields.io/badge/Version-Beta_1.1-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/Version-Beta_1.1.2-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](#)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
@@ -30,7 +30,7 @@
 - [x] Renew launch cards and news cards designs
 - [x] Renew dark theme
 - [x] Polyfill project
-- [ ] Add rockets page
+- [x] Add rockets page
 - [ ] Search rocket infos
 - [ ] Top bar text with route pathname
 - [...]

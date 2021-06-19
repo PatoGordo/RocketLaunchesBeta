@@ -27,7 +27,7 @@ function home() {
         <Cards>
           {
             launches.map((launch, key) => (
-              <div key={key}>
+              <Card key={key}>
                 <h1 style={{ fontSize: '1.8rem', marginBottom: 10, textAlign: 'center', width: '100%' }}>Next Launch</h1>
                 <LaunchCard
                   LaunchDate={launch.sort_date}
@@ -39,21 +39,21 @@ function home() {
                   company={launch.provider.name}
                   vehicleName={launch.vehicle.name}
                 />
-              </div>
+              </Card>
             ))
           }
           {
             news.map((article, key) => (
-              <div key={key}>
-                <h1 style={{ fontSize: '1.8rem', marginBottom: 10, textAlign: 'center', width: '100%' }}>Breaking news</h1>
-                <NewsCard
-                  website={article.newsSite}
-                  articleName={article.title}
-                  articleDescription={article.summary}
-                  publishedAt={article.publishedAt}
-                  website_url={article.url}
-                />
-              </div>
+            <Card key={key}>
+              <h1 style={{ fontSize: '1.8rem', marginBottom: 10, textAlign: 'center', width: '100%' }}>Breaking news</h1>
+              <NewsCard
+                website={article.newsSite}
+                articleName={article.title}
+                articleDescription={article.summary}
+                publishedAt={article.publishedAt}
+                website_url={article.url}
+              />
+            </Card>
             ))
           }
         </Cards>

@@ -53,7 +53,7 @@ export const NewsCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   text-align: start;
   background: #2d333b;
   border-radius: 8px;
@@ -65,6 +65,7 @@ export const NewsCard = styled.div`
     align-items: center;
     background: #48515c;
     border-radius: 8px 8px 0 0;
+    align-self: flex-start;
     .icon {
       display: flex;
       align-items: center;

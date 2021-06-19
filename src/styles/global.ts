@@ -11,6 +11,21 @@ export default createGlobalStyle`
       display: none;
     }
   }
+  .screen-size-warn {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 80px;
+    left: 0;
+    display: none;
+    background: #2b2f32;
+    color: #FFB74D;
+    padding: 5px 0;
+    opacity: .8;
+    &.on {
+      display: block;
+    }
+  }
   .component {
     margin-bottom: 80px;
   }
