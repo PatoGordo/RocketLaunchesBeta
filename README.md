@@ -33,13 +33,18 @@
 - [x] Add rockets page
 - [ ] Search rocket infos
 - - [x] SpaceX
-- - [ ] Nasa (National Aeronautics and Space Administration)
-- - [ ] Roscosmos
-- - [ ] Rocket lab
-- - [ ] Blue origin
-- - [ ] Csa (Canadian Space Agency)
+- - [ ] Rocket Lab
+- - [ ] Virgin Orbit
+- - [ ] Virgin Galactic
+- - [ ] Northrop Grumman
+- - [ ] Boeing
+- - [ ] Blue Origin
+- - [ ] NASA (National Aeronautics and Space Administration)
+- - [ ] Roscosmos (Russian Space Agency)
+- - [ ] ESA (European Space Agency)
+- - [ ] CNSA (China National Space Agency)
+- - [ ] CSA (Canadian Space Agency)
 - - [ ] ...
-- [ ] Top bar text with route pathname
 - [ ] ...
 
 ## Beta 2.0 plans
