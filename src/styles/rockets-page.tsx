@@ -11,13 +11,24 @@ export const List = styled.ul`
 `
 
 export const ListItem_ = styled.li`
-  width: 100%;
+  width: min(95%, 460px);
+  margin: 10px;
+  background: #2d333b;
+  border-radius: .35rem;
+  padding: 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  align-items: center;
   div {
-    text-align: start;
+    display: flex;
+    > div {
+      margin-left: 10px;
+      text-align: start;
+      flex-direction: column;
+      justify-content: center;
+    }
   }
   img {
     width: 50px;
@@ -35,13 +46,15 @@ interface ListItemPropsTypes {
 
 export function ListItem(props: ListItemPropsTypes) {
   return (
-    <ListItem_>
-      <img src={props.imgUrl} alt="🚀" />
+    <ListItem_ className="list-item">
       <div>
-        <h4>{props.rocketName}</h4>
-        <small>{props.rocketLaunchDate}</small>
+        <img src={props.imgUrl} alt="🚀" />
+        <div>
+          <h4>{props.rocketName}</h4>
+          <small>First flight: {props.rocketLaunchDate}</small>
+        </div>
       </div>
-      <ChevronForwardOutline width="24px" height="24px" color="#ffffff" onClick={() => alert('not working yet')} />
+      <ChevronForwardOutline style={{cursor: 'pointer'}} cssClasses="icon" width="24px" height="24px" color="#ffffff" onClick={() => alert('not working yet')} />
     </ListItem_>
   )
 }

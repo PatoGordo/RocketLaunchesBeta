@@ -44,9 +44,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       
       <ModalLoading />
       
-      <div className={showWarn? 'screen-size-warn on':'screen-size-warn'}>
+      {/* <div className={showWarn? 'screen-size-warn on':'screen-size-warn'}>
         Try using this application on a mobile phone to have a better experience. 
-      </div>
+      </div> */}
       <BottomBar />
       <GlobalStyle />
     </>

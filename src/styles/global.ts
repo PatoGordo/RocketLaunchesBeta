@@ -11,6 +11,9 @@ export default createGlobalStyle`
       display: none;
     }
   }
+  #__next {
+    width: 100%;
+  }
   .screen-size-warn {
     position: fixed;
     width: 100%;
@@ -46,6 +49,10 @@ export default createGlobalStyle`
       }
       #bottom-nav, #top-nav {
         background: #24292E !important;
+        transition: all ease .3s;
+      }
+      .list-item {
+        background: #cbced2 !important;
         transition: all ease .3s;
       }
       .topbar-menu {

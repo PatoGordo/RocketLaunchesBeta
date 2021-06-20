@@ -1,17 +1,18 @@
 import { List, ListItem } from '../styles/rockets-page'
-import { ChevronForwardOutline } from "react-ionicons";
+import vehicles from '../data/vehicles'
 
-export default function Rockets() {
+function rockets() {
   return (
     <div style={{marginTop: '50px'}}>
-      <h1>Know the rockets</h1>
+      <h1>Rockets</h1>
       <List>
-        <ListItem 
-          imgUrl="https://blogs.nasa.gov/commercialcrew/wp-content/uploads/sites/230/2020/05/NHQ202005210007.jpg"
-          rocketName="Falcon 9"
-          rocketLaunchDate="First test June 4, 2010."
-        />
+        {
+          vehicles.map((vehicle, key) => (
+            <ListItem key={key} imgUrl={vehicle.img} rocketLaunchDate={vehicle.first_launch} rocketName={vehicle.name} />
+          ))
+        }
       </List>
     </div>
   )
 }
+export default rockets

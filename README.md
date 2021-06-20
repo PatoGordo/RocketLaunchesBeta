@@ -1,5 +1,5 @@
 # Welcome to Rocket Launches Next Version 👋
-![Version](https://img.shields.io/badge/Version-Beta_1.1.2-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/Version-Beta_1.1.3-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](#)
 [![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
@@ -32,11 +32,18 @@
 - [x] Polyfill project
 - [x] Add rockets page
 - [ ] Search rocket infos
+- - [x] SpaceX
+- - [ ] Nasa (National Aeronautics and Space Administration)
+- - [ ] Roscosmos
+- - [ ] Rocket lab
+- - [ ] Blue origin
+- - [ ] Csa (Canadian Space Agency)
+- - [ ] ...
 - [ ] Top bar text with route pathname
-- [...]
+- [ ] ...
 
 ## Beta 2.0 plans
-- [ ] Push notifications
+- [ ] Push notifications(Only mobile app)
 - [ ] Firebase cloud messaging
 
 ## Show your support :handshake:

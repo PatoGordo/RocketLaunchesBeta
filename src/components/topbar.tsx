@@ -60,9 +60,9 @@ export default function TopBar_() {
           <MenuOutline width="24px" height="24px" color="#ffffff" onClick={() => setIsOpen(!isOpen)} />
           <h2>Rocket Launches</h2>
         </div>
-        <div style={{display: 'flex'}}>
+        {/* <div style={{display: 'flex'}}>
           <NotificationsOutline width="24px" height="24px" color="#ffffff" onClick={() => alert('Not working yet!')} />
-        </div>
+        </div> */}
       </TopBar>
 
       <TopMenu className={isOpen?'topbar-menu on':'topbar-menu'}>
