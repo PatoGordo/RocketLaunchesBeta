@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next",
-    "post-update": "yarn upgrade --latest",
+    "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
     "axios": "0.21.1",
