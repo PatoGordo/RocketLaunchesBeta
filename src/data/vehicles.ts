@@ -1,4 +1,4 @@
-import RocketInterface from './rockets'
+import RocketInterface from './rocketsTypes'
 
 export const SpaceX_Falcon1: RocketInterface = {
   name: 'Falcon 1',
@@ -102,9 +102,58 @@ export const Roscosmos_Soyuz = {
   first_launch: 'May, 21, 2001'
 }
 
+export const RocketLab_Electron = {
+  name: 'Electron',
+  img: 'https://www.spacelaunchreport.com/electron2.jpg',
+  first_launch: 'May, 25, 2017'
+}
+
+export const NorthropGrumman_Minotaur = {
+  name: 'Minotaur',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/7/76/Minotaur_I_rocket.jpg',
+  first_launch: 'January, 27, 2000'
+}
+
+export const BoeingAndNasa_SpaceLaunchSystem = {
+  name: 'Space Launch System(SLS)',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Sls_block1_on-pad_sunrisesmall.jpg/800px-Sls_block1_on-pad_sunrisesmall.jpg',
+  first_launch: "First Flight hasn't happened yet"
+}
+
+export const BlueOrgin_NewShepard = {
+  name: 'New Shepard',
+  img: 'https://pplware.sapo.pt/wp-content/uploads/2021/01/new_shepard_blue_origin00.jpg',
+  first_launch: "April, 29, 2015"
+}
+
+export const NASA_SaturnV = {
+  name: 'Saturn V',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Apollo_11_Launch_-_GPN-2000-000630.jpg',
+  first_launch: "November, 9, 1967"
+}
+
+export const ESA_ArianeV = {
+  name: 'Ariane V',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ariane_5ES_with_ATV_4_on_its_way_to_ELA-3.jpg/220px-Ariane_5ES_with_ATV_4_on_its_way_to_ELA-3.jpg',
+  first_launch: "June, 4, 1996"
+}
+
+export const CNSA_LongMarchV = {
+  name: 'Long March V',
+  img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/%E9%95%BF%E5%BE%81%E4%BA%94%E5%8F%B7%E9%81%A5%E4%BA%8C%E7%81%AB%E7%AE%AD%E8%BD%AC%E5%9C%BA.jpg/220px-%E9%95%BF%E5%BE%81%E4%BA%94%E5%8F%B7%E9%81%A5%E4%BA%8C%E7%81%AB%E7%AE%AD%E8%BD%AC%E5%9C%BA.jpg',
+  first_launch: "November, 3, 2016"
+}
+
 export default [
   SpaceX_Falcon1,
   SpaceX_Falcon9,
   SpaceX_Starship,
-  Roscosmos_Soyuz
+  Roscosmos_Soyuz,
+  RocketLab_Electron,
+  NorthropGrumman_Minotaur,
+  BoeingAndNasa_SpaceLaunchSystem,
+  BlueOrgin_NewShepard,
+  NASA_SaturnV,
+  ESA_ArianeV,
+  CNSA_LongMarchV,
 ]
